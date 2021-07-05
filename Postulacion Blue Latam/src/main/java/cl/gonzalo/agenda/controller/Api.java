@@ -57,8 +57,7 @@ public class Api {
 
     @DeleteMapping("/contactos/{id}")
     @ResponseStatus(HttpStatus.NO_CONTENT)
-    @Transactional
-    public void delete(@PathVariable Long id) {
+     public void delete(@PathVariable Long id) {
         as.deleteById(id);
        
     }

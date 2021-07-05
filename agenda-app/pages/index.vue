@@ -19,15 +19,6 @@
           />
         </div>
         <button class="btn btn-primary" v-on:click="submit()">Agregar</button>
-        <div class="col">
-          <input
-            type="text"
-            class="form-control"
-            v-model="form.numero"
-            placeholder="Buscar"
-          />
-        </div>
-        <button class="btn btn-warning" v-on:click="buscar()">Buscar</button>
       </div>
     </form>
 
